@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-06-11T22:24:10.804451",
+  "dataset": "Chicago City Workforce",
+  "record_count": 31984,
+  "insights": [
+    {
+      "category": "Distribution",
+      "insight": "The compensation distribution is left-skewed (mean $110,575 is below median $111,252), indicating a tail of lower earners pulling the mean down.",
+      "priority": "Medium"
+    },
+    {
+      "category": "Workforce Composition",
+      "insight": "The Chicago Police Department employs 38.5% of the city workforce (12,315 employees), making it by far the largest single employer \u2014 larger than the next 3 departments combined.",
+      "priority": "High"
+    },
+    {
+      "category": "Payroll Concentration",
+      "insight": "The top 5 departments account for 75.9% of total payroll expenditure, representing a high concentration risk. Budget changes in CPD or CFD alone can materially shift citywide payroll figures.",
+      "priority": "High"
+    },
+    {
+      "category": "High Compensation",
+      "insight": "2,563 employees (8.0% of workforce) earn over $150,000 annually, collectively representing $428.7M in annual payroll.",
+      "priority": "Medium"
+    },
+    {
+      "category": "Employment Type Equity",
+      "insight": "Part-time employees (n=887) have a median annualized compensation of $19,344 \u2014 83% lower than full-time workers ($112,104). This gap is largely driven by reduced hours rather than lower hourly rates.",
+      "priority": "High"
+    },
+    {
+      "category": "Department Benchmarking",
+      "insight": "DEPARTMENT OF BUILDINGS has the highest median compensation at $133,432, 19.9% above the citywide median \u2014 suggesting specialized technical skills command a significant premium.",
+      "priority": "Medium"
+    },
+    {
+      "category": "Anomalies",
+      "insight": "IQR-based outlier detection flags 729 high-compensation outliers (above $171,633) and 1,321 low-compensation outliers (below $53,001). High outliers are predominantly senior executives; low outliers appear to be part-time/stipend roles.",
+      "priority": "Low"
+    }
+  ],
+  "data_quality_score": {
+    "scores": {
+      "Completeness": {
+        "score": 25.0,
+        "max": 25,
+        "detail": "0 unexpected nulls of 511,744 total cells"
+      },
+      "Validity": {
+        "score": 20.0,
+        "max": 20,
+        "detail": "0 records with invalid categorical values"
+      },
+      "Consistency": {
+        "score": 20.0,
+        "max": 20,
+        "detail": "0 records where pay type doesn't match compensation columns"
+      },
+      "Uniqueness": {
+        "score": 15.0,
+        "max": 15,
+        "detail": "361 duplicate employee names (1.1%) \u2014 no unique ID in source"
+      },
+      "Accuracy": {
+        "score": 10.0,
+        "max": 10,
+        "detail": "0 records with impossible/negative values"
+      },
+      "Timeliness": {
+        "score": 7.0,
+        "max": 10,
+        "detail": "Source data updated annually; no record-level timestamp available"
+      }
+    },
+    "total": 97.0,
+    "max": 100,
+    "pct": 97.0,
+    "grade": "A"
+  }
+}

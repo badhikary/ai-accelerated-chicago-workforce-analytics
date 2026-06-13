@@ -1,0 +1,108 @@
+{
+  "profile_generated_at": "2026-06-11T22:17:42.098046",
+  "source_file": "data/raw/Current_Employee_Names__Salaries__and_Position_Titles.csv",
+  "shape": {
+    "rows": 31984,
+    "columns": 8
+  },
+  "columns": {
+    "Name": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 31623,
+      "top_values": {
+        "PEREZ, CARLOS": 4,
+        "HERNANDEZ, JUAN C": 4,
+        "GONZALEZ, RICARDO": 4,
+        "ROMERO, MIGUEL A": 4,
+        "LOPEZ, ROBERT": 4
+      }
+    },
+    "Job Titles": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1190,
+      "top_values": {
+        "POLICE OFFICER": 7921,
+        "FIREFIGHTER-EMT": 1597,
+        "SERGEANT": 1357,
+        "POLICE OFFICER (ASSIGNED AS DETECTIVE)": 1153,
+        "MOTOR TRUCK DRIVER": 953
+      }
+    },
+    "Department": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 39,
+      "top_values": {
+        "CHICAGO POLICE DEPARTMENT": 12315,
+        "CHICAGO FIRE DEPARTMENT": 4806,
+        "DEPARTMENT OF WATER MANAGEMENT": 2048,
+        "DEPARTMENT OF STREETS AND SANITATION": 2008,
+        "CHICAGO DEPARTMENT OF AVIATION": 1985
+      }
+    },
+    "Full or Part-Time": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "top_values": {
+        "F": 31097,
+        "P": 887
+      }
+    },
+    "Salary or Hourly": {
+      "dtype": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "top_values": {
+        "SALARY": 25042,
+        "HOURLY": 6942
+      }
+    },
+    "Typical Hours": {
+      "dtype": "float64",
+      "null_count": 25042,
+      "null_pct": 78.3,
+      "unique_count": 4,
+      "min": 10.0,
+      "max": 40.0,
+      "mean": 37.43,
+      "median": 40.0,
+      "std": 6.69,
+      "p25": 40.0,
+      "p75": 40.0
+    },
+    "Annual Salary": {
+      "dtype": "float64",
+      "null_count": 6942,
+      "null_pct": 21.7,
+      "unique_count": 875,
+      "min": 199.2,
+      "max": 350000.04,
+      "mean": 115240.06,
+      "median": 115158.0,
+      "std": 28894.73,
+      "p25": 98928.0,
+      "p75": 131472.0
+    },
+    "Hourly Rate": {
+      "dtype": "float64",
+      "null_count": 25042,
+      "null_pct": 78.3,
+      "unique_count": 133,
+      "min": 4.73,
+      "max": 70.87,
+      "mean": 46.3,
+      "median": 48.73,
+      "std": 14.41,
+      "p25": 43.01,
+      "p75": 56.1
+    }
+  }
+}

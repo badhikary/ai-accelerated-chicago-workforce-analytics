@@ -1,0 +1,41 @@
+{
+  "file": "Chicago_Workforce_Dashboard.pbix",
+  "tool": "Microsoft Power BI Desktop",
+  "version_required": "Power BI Desktop 2.0+",
+  "pages": [
+    {
+      "page": 1,
+      "name": "Executive Overview",
+      "visuals": 9,
+      "slicers": 3
+    },
+    {
+      "page": 2,
+      "name": "Department Analysis",
+      "visuals": 4,
+      "slicers": 2
+    },
+    {
+      "page": 3,
+      "name": "Compensation Deep Dive",
+      "visuals": 5,
+      "slicers": 3
+    },
+    {
+      "page": 4,
+      "name": "Pay Equity Analysis",
+      "visuals": 5,
+      "slicers": 2
+    },
+    {
+      "page": 5,
+      "name": "Top Earners & Titles",
+      "visuals": 4,
+      "slicers": 1
+    }
+  ],
+  "data_source": "data/processed/chicago_workforce_cleaned.csv",
+  "dax_measures": 14,
+  "setup_guide": "powerbi/powerbi_setup_guide.md",
+  "note": "Open Power BI Desktop and follow powerbi_setup_guide.md to recreate the .pbix from the cleaned CSV data."
+}
