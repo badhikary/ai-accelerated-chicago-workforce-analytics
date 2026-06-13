@@ -1,9 +1,6 @@
 # 🏙️ Chicago City Workforce Analytics
 ### End-to-End Senior Data Analyst Project | City of Chicago | data.gov
 
-> **AI-Accelerated, Human-Validated Analytics Workflow:** This project demonstrates how AI was used to accelerate documentation, SQL/DAX drafting, dashboard planning, and business communication. Final outputs were structured, reviewed, and validated by the analyst using repeatable Python, SQL, Excel, and Power BI analysis steps.
-
-
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
 [![SQL](https://img.shields.io/badge/SQL-SQLite%2FPostgreSQL-orange?logo=postgresql)](https://postgresql.org)
@@ -12,11 +9,13 @@
 [![AI](https://img.shields.io/badge/AI-Accelerated%20Analytics-purple?logo=openai)](https://openai.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
+> **AI-Accelerated, Human-Validated Analytics Workflow:** This project demonstrates how AI was used to accelerate documentation, SQL/DAX drafting, dashboard planning, and business communication. Final outputs were structured, reviewed, and validated by the analyst using repeatable Python, SQL, Excel, and Power BI analysis steps.
+
 ---
 
 ## 📋 Project Overview
 
-This is a **production-grade, end-to-end workforce analytics project** built on publicly available City of Chicago employee compensation data sourced from [data.gov](https://data.gov). The project demonstrates senior-level data analyst competencies across the full analytics lifecycle — from raw data ingestion to executive-ready dashboards and AI-Accelerated insights.
+This is an **end-to-end workforce analytics portfolio project** built on publicly available City of Chicago employee compensation data sourced from data.gov. The project demonstrates senior-level data analyst competencies across the full analytics lifecycle — from raw data ingestion, data cleaning, SQL analysis, Excel reporting, and Power BI dashboard planning to AI-accelerated, human-validated business communication.
 
 > **Dataset**: City of Chicago — Current Employee Names, Salaries, and Position Titles  
 > **Source**: [data.gov / City of Chicago Open Data Portal](https://data.cityofchicago.org)  
